@@ -9,8 +9,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Ground W1
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
-  m_ShaderKeywords: _EMISSION
-  m_LightmapFlags: 2
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2050
@@ -21,7 +21,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: bf2498e489f73d547aafc73fd66a36cb, type: 3}
+        m_Texture: {fileID: 2800000, guid: 70d16a5f04690d74ab9b1ddcbefd47bb, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -33,7 +33,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: bf2498e489f73d547aafc73fd66a36cb, type: 3}
+        m_Texture: {fileID: 2800000, guid: 70d16a5f04690d74ab9b1ddcbefd47bb, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -71,7 +71,7 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.23529412, g: 0.1019608, b: 0.2224424, a: 1}
+    - _BaseColor: {r: 0.2924528, g: 0.103462085, b: 0.2471596, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0.24671929, g: 0.254717, b: 0.20064971, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
