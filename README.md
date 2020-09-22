@@ -31,7 +31,7 @@ For enemy tanks, there are 3 types of shooting
 3. This is a heatseeker shot, which means it chases the player tank. This also uses NavMesh, and its destination is set to the player position. the bullet self destructs after 10 seconds or when it hits the player
 
 ##### Environment, Graphics and Aesthetics
-Most of the visual effects were made as a particle system with suitable settings. Lightening in world 3 was simulated by adjusting the intensity of a directional light over time, according to an animation curve. I designed some 3D models using Pro-Builder and created materials for various GameObjects.
+Most of the visual effects were made as a particle system with suitable settings. Lightening in world 3 was simulated by adjusting the intensity of a directional light over time, according to an animation curve. I designed some 3D models using Pro-Builder and created materials for various GameObjects. I also added a bit of post processing to make the environment look even better.
 
 ##### Sound
 I implemented a custom class called Audio Manager (under guidance of [Brackeys](https://www.youtube.com/watch?v=6OT43pvUyfY)) which made it a lot easier to play and pause various sound effects, like those of shooting, thunder and explosions.
